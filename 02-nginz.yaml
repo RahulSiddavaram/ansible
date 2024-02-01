@@ -1,13 +1,13 @@
-- name: Install And Run Nginx # this is not mandatory, it is for identification
+- name: Install And Run nginx # this is not mandatory, it is for identification
   hosts: mongodb
   become: yes # this will give root access
   tasks: 
   - name: install nginx
     ansible.builtin.yum:
       name: nginx
-      state: Installed
+      state: installed
   - name: Start nginx
     ansible.builtin.service:
       name: nginx
-      state: Started
+      state: started
   
