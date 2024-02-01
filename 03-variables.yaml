@@ -10,6 +10,6 @@
    - name: Print hello world
      ansible.builtin.debug:
       msg: "Hellow I am Learing ANSIBLE"
-   - name: Print hello world
+   - name: Print Variables
      ansible.builtin.debug:
       msg: "Hellow I am Learing {{COURSE}}, Trainer is {{TRAINER}} DURAION is {{DURATION}}"
