@@ -2,7 +2,7 @@
   hosts: mongodb
   # THIS IS PLAY LEVEL VARIABLES
   vars:
-    course: DEVOPS
+    COURSE: DEVOPS
     TRAINER: RAHUL JAY KANTH
     DURATION: 125 Hours
   tasks:
