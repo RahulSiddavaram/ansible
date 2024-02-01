@@ -1,0 +1,7 @@
+- naem: variables in ansible
+  hosts: mongodb
+  tasks:
+    #orint something
+   - name: Print hello world
+     ansible.builtin.debug:
+      msg: "Hellow I am Learing ANSIBLE"
