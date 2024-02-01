@@ -1,6 +1,6 @@
-#playbook 
--name: Ping THe Node
-  hosts: mongodb
+#playbook is list of plays, it should start with hyphen
+-name: Ping The Node
+ hosts: mongodb
   #this is list of tasks/modules/collections
   tasks:
     - name: Pinging the Server 
