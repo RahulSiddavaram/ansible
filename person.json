@@ -1,0 +1,28 @@
+{
+    "name": "RAHUL JAYA KANTH",
+    "dob": "22-09-1989",
+    //this is address map, inside everthing is key value pair
+    "address": {
+        "city": "HYD",
+        "Country": "INDIA"
+    }
+}
+
+
+{
+    "name": "RAHUL JAYA KANTH 2",
+    "dob": "22-09-1989",
+    //this is address map,
+    "address": {
+        {
+            "city": "secundrabad",
+            "Country": "INDIA",
+            "type": "current"
+        },
+        {
+            "city": "secundrabad",
+            "Country": "INDIA",
+            "type": "current"
+         }
+}
+}

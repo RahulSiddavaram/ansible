@@ -1,0 +1,41 @@
+-name: RAHUL JAYA KANTH
+  DOB: 22-09-1989
+  #thsi is mapping
+  Address: 
+    City: HYD
+    Country: India
+    D.No: 102
+    Street: hyd-500010
+  Address: 
+    type: permanent
+      City: HYD
+      Country: India
+      D.No: 102
+      Street: hyd-500010 3
+    type: Current
+      city: US
+      Country: India
+      D.No: 102
+      Street: California
+
+#this is the second person
+-name: Bharathi
+  DOB: 22-09-1989
+  #thsi is mapping
+  Address: 
+    City: HYD
+    Country: India
+    D.No: 102
+    Street: hyd-500010
+  Address: 
+    type: Permanent
+      City: HYD
+      Country: India
+      D.No: 102
+      Street: hyd-500010 3
+    type: Current
+      city: US
+      Country: India
+      D.No: 102
+      Street: California
+

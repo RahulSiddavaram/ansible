@@ -1,0 +1,17 @@
+<Person>
+    <Name>Rahul Jaya Kanth<Name>
+    <DOB>22-09-1989<DOB>
+    <Address>
+        <PermanantAddress>
+        <Country>INDIA<Country>
+        <City>HYD<City>
+        </PermanantAddress>
+        <CurrentAddress>
+        <Country>INDIA<Country>
+        <City>HYD<City>
+        </CurrentAddress>
+    </Address>
+</Person>
+
+### here person is key ###
+### and the value is name  DOB City & Country ###
