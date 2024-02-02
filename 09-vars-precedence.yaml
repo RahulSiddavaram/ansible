@@ -12,5 +12,5 @@
   - name: variable at task level
     vars:
       NAME: sivakumar-task
-      ansible.biltin.debug:
+    ansible.biltin.debug:
       msg: "print " 
