@@ -2,8 +2,8 @@
   hosts: mongodb
   vars:
     NAME: sivakumar-play
-  vars_files:
-  - variables.yaml
+  # vars_files:
+  # - variables.yaml
   vars_prompt:
   - name: NAME
     prompt: Please Enter Your username
