@@ -1,0 +1,10 @@
+- name: create user
+  hosts: localhost
+  tasks: 
+  - name: check roboshop user exists or not
+    # when you weant to run linux commands directy i.e the case ansible module not available
+    ansible.builtin.command: cat /etc/motd
+    register: output # output is variable name
+  - name: print the command output
+    ansible.builtin.debug:
+      msg: output is : "{{output}}"
