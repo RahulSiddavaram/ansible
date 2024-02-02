@@ -5,7 +5,7 @@
   vars_files:
   - variables.yaml
   vars_prompt:
-  - name: USERNAME
+  - name: NAME
     prompt: Please Enter Your username
     private: false # you can see the value entered on screen
   tasks:
