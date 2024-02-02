@@ -1,5 +1,5 @@
  -name: Install packages
-  hosts: localhost # you need to give user name & password through ansible command line
+  hosts: mongodb # you need to give user name & password through ansible command line
   become: yes
   tasks:
   - name: install package
