@@ -25,7 +25,7 @@
   - name: print list variable
     ansible.builtin.debug:
       msg : "{{Skills}}"
-  name: print map variable
+  - name: print map variable
     ansible.builtin.debug:
       msg : "{{EXPERIENCE}}"
 
