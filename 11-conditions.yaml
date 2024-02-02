@@ -18,7 +18,3 @@
     ansible.builtin.user:
       name: roboshop
     when: output.rc !=0
-  - name: print user
-    ansible.builtin.debug:
-      msg: "{{id roboshop}}"
-  
