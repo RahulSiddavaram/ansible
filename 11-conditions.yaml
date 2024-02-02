@@ -20,5 +20,5 @@
     when: output.rc !=0
   - name: print user
     ansible.builtin.debug:
-      msg: created user "{{id roboshop}}"
+      msg: "{{id roboshop}}"
   
