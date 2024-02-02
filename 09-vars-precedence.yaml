@@ -10,6 +10,8 @@
   #   private: false # you can see the value entered on screen
   tasks:
   - name: variable at task level
+    # vars:
+    #   NAME: sivakumar-task
     ansible.builtin.debug:
       msg: "Trainer name is: {{NAME}}" 
 
@@ -19,4 +21,5 @@
 # 3. 3rd preference is from vars_files
 # 4. 4th preference is from prompt
 # 5. 5th preference is from play level
+# 6. 6th preference is from Inventory
 
