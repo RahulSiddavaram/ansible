@@ -1,0 +1,13 @@
+- name: Trying Loops Variable
+  hosts: localhost # you need to give user name & password through ansible command line
+  tasks:
+  - name: print the loop variable names
+    ansible.builtin.debug:
+      msg: "Hello {{item}}"
+    loop:
+    - Syam Babu
+    - rahul
+    - barthi
+    - son 
+    - daughter
+    
