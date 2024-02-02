@@ -7,7 +7,7 @@
   - name: PASSWORD
     prompt: Please Enter Your password
     privatet: true # you can see the value entered on screen
-    tasks:
-    - name: print variable values
-      ansible.builtin.debug:
-        msg: "username: {{USERNAME}}, password: {{PASSWORD}}"
+  tasks:
+  - name: print variable values
+    ansible.builtin.debug:
+      msg: "username: {{USERNAME}}, password: {{PASSWORD}}"
