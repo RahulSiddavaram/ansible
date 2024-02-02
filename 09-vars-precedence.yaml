@@ -4,10 +4,10 @@
     NAME: sivakumar-play
   # vars_files:
   # - variables.yaml
-  vars_prompt:
-  - name: NAME
-    prompt: Please Enter Your username
-    private: false # you can see the value entered on screen
+  # vars_prompt:
+  # - name: NAME
+  #   prompt: Please Enter Your username
+  #   private: false # you can see the value entered on screen
   tasks:
   - name: variable at task level
     ansible.builtin.debug:
@@ -17,4 +17,5 @@
 # 1. 1st preference is from Commnad line variables
 # 2. 2nd preference is from the task level
 # 3. 3rd preference is from vars_files
-
+# 4. 4th preference is from prompt
+# 5. 5th preference is from 
