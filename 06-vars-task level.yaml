@@ -1,7 +1,7 @@
 - name: variables at task level
   hosts: localhost
   vars:
-  - money; "1,00,000 Rs/-"
+  - money: "1,00,000 Rs/-"
     land: "100 hectars"
   tasks:
   - name: inherit value from play
