@@ -10,4 +10,5 @@
      - nginx
      - postfix
      - cyrus-sasl-plain
-     - mailx 
+     - mailx
+     - ansible
