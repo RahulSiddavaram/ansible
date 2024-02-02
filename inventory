@@ -2,7 +2,11 @@
 172.35.36.96
 
 [mongodb]
-172.31.42.158
+roboshop-us-dev-db-mongodb-01.rahuldevops.cloud
+
+[mongodb:vars]
+MONGO_USERNAME=mongodbadmin
+MONGO_DB=categories
 
 [mongodb:vars]
 MONGO_USERNAME=mongodbadmin
