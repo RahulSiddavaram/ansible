@@ -1,4 +1,4 @@
--  naem: variables from files
+-  name: variables from files
    hosts: localhost #managing the ansible server itself
    vars_files:
    - VARIABLES.YAML
@@ -6,4 +6,3 @@
     - name: Printing variables
       ansible.builtin.debug:
         msg: "we are learning {{NAME}}, Duration is: {{DURATION}}, Trainer is: {{TRAINER}}"
-        
