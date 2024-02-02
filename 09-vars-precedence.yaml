@@ -10,10 +10,11 @@
     private: false # you can see the value entered on screen
   tasks:
   - name: variable at task level
-    vars:
-      NAME: sivakumar-task
     ansible.builtin.debug:
       msg: "Trainer name is: {{NAME}}" 
 
 
 # 1. 1st preference is from Commnad line variables
+# 2. 2nd preference is from the task level
+# 3. 
+
