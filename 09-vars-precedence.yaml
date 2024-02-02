@@ -1,0 +1,16 @@
+- name: testing variable precedence
+  hosts: mongodb
+  vars:
+    NAME: sivakumar-play
+  vars_files:
+  - variables.yaml
+  vars_prompt:
+  - name: USERNAME
+    prompt: Please Enter Your username
+    private: false # you can see the value entered on screen
+  tasks:
+  - name: variable at task level
+    vars:
+      NAME: sivakumar-task
+      ansible.biltin.debug:
+      msg: "print " 
