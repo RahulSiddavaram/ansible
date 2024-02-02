@@ -14,3 +14,6 @@
       NAME: sivakumar-task
     ansible.builtin.debug:
       msg: "Trainer name is: {{NAME}}" 
+
+
+# 1. 1st preference is from Commnad line variables
