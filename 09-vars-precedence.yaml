@@ -16,5 +16,5 @@
 
 # 1. 1st preference is from Commnad line variables
 # 2. 2nd preference is from the task level
-# 3. 
+# 3. 3rd preference is from vars_files
 
